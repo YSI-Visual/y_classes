@@ -135,7 +135,7 @@ Operators:
 	-
 \**--------------------------------------------------------------------------**/
 
-#include "..\YSI-Internal\y_version"
+#include "..\YSI_Internal\y_version"
 
 #if !defined MAX_CLASSES
 	#define MAX_CLASSES                 (256)
@@ -148,22 +148,22 @@ Operators:
 #if !defined WEAPON_ARMOUR
 	#define WEAPON_ARMOUR               (100)
 #endif
-#include "..\YSI-Data\y_bit"
-#include "..\YSI-Core\y_debug"
-#include "..\YSI-Data\y_iterate"
-#include "..\YSI-Data\y_playerarray"
-#include "..\YSI-Data\y_iterate"
-#include "..\YSI-Internal\y_natives"
+#include "..\YSI_Data\y_bit"
+#include "..\YSI_Core\y_debug"
+#include "..\YSI_Data\y_iterate"
+#include "..\YSI_Data\y_playerarray"
+#include "..\YSI_Data\y_iterate"
+#include "..\YSI_Internal\y_natives"
 
 #define YSIM_U_DISABLE
-#include "..\YSI-Core\y_master"
+#include "..\YSI_Core\y_master"
 
 #define _GROUP_MAKE_NAME<%0...%1> %0Class%1
 #define _GROUP_MAKE_LIMIT         MAX_CLASSES
-#include "..\YSI-Players\y_groups\_funcs"
-#include "..\YSI-Players\y_groups\y_classes"
+#include "..\YSI_Players\y_groups\_funcs"
+#include "..\YSI_Players\y_groups\y_classes"
 
-#include "..\YSI-Coding\y_hooks"
+#include "..\YSI_Coding\y_hooks"
 
 //#define OnPlayerRequestClassEx(%0) OnPlayerRequestClassEx_(%0)if(!YSI_gOPRCE)return 0;else
 //#define OnPlayerRequestSpawnEx(%0) OnPlayerRequestSpawnEx_(%0)if(!YSI_gOPRCE)return 0;else
