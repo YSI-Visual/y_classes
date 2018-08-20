@@ -1,3 +1,47 @@
+# y_classes
+
+Provides enhanced class selection facilites, including:
+
+* Add and remove classes at any time.
+* Hide skins entirely from certain players.
+* y_groups support to extend skin hiding to teams etc.
+* As many default weapons as you like.
+* Multi-level skin selection, e.g. select a team first, then a skin within that team.
+* Disable, skip, reenable, and force return to class selection.
+
+
+[![sampctl](https://shields.southcla.ws/badge/sampctl-y_classes-2f2f2f.svg?style=for-the-badge)](https://github.com/YSI-Visual/y_classes)
+
+## Installation
+
+To install just this one library:
+
+```bash
+sampctl package install YSI-Visual/y_classes
+```
+
+Include in your code and begin using the library:
+
+```pawn
+#include <YSI-Visual/y_classes>
+```
+
+## Documentation
+
+* [Quick Start](YSI-Visual/y_classes/quick-start.md) - One very simple example of getting started with this library.
+* [Features](YSI-Visual/y_classes/features.md) - More features and examples.
+* [FAQs](YSI-Visual/y_classes/faqs.md) - Frequently Asked Questions, including errors and solutions.
+* [API](YSI-Visual/y_classes/api.md) - Full list of all functions and their meaning.
+* [Internal](YSI-Visual/y_classes/internal.md) - Internal developer documentation for the system.
+
+## Testing
+
+To test, simply run the package:
+
+```bash
+sampctl package run
+```
+
 # YSI
 
 ## General Information
@@ -109,34 +153,4 @@ Libraries that have in-game visible effects.
 * [y_races](https://github.com/YSI-Visual/y_races/blob/dev/YSI-Visual/y_races.md)
 * [y_zonenames](https://github.com/YSI-Visual/y_zonenames/blob/dev/YSI-Visual/y_zonenames.md)
 * [y_zonepulse](https://github.com/YSI-Visual/y_zonepulse/blob/dev/YSI-Visual/y_zonepulse.md)
-
-# y_classes
-
-[![sampctl](https://shields.southcla.ws/badge/sampctl-y_classes-2f2f2f.svg?style=for-the-badge)](https://github.com/YSI-Visual/y_classes)
-
-## Installation
-
-To install just this one library:
-
-```bash
-sampctl package install YSI-Visual/y_classes
-```
-
-Include in your code and begin using the library:
-
-```pawn
-#include <YSI-Visual/y_classes>
-```
-
-## Usage
-
-[Click Here] (YSI-Visual/y_classes.md)
-
-## Testing
-
-To test, simply run the package:
-
-```bash
-sampctl package run
-```
 
