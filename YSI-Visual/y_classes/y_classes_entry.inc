@@ -75,7 +75,7 @@ Optional plugins:
 	Me - sscanf2, fixes2, Whirlpool.
 */
 
-#include "..\..\YSI_Core\y_utils"
+#include <YSI-Core\y_utils>
 
 stock _YSI_HAS_y_classes(_do_not_call_me_ever_, _like_never_)
 {
@@ -98,15 +98,15 @@ stock _YSI_HAS_y_classes(_do_not_call_me_ever_, _like_never_)
 
 #define INFINATE_ARMOUR                 (0x00800000)
 
-#include "..\..\YSI_Data\y_bit"
-#include "..\..\YSI_Data\y_iterate"
-#include "..\..\YSI_Data\y_playerarray"
-#include "..\..\YSI_Data\y_iterate"
+#include <YSI-Data\y_bit>
+#include <YSI-Data\y_iterate>
+#include <YSI-Data\y_playerarray>
+#include <YSI-Data\y_iterate>
 
 #define Y_CLASSES_GROUP_NAME<%0...%1> %0Class%1
 #define Y_CLASSES_GROUP_LIMIT         MAX_CLASSES
 #define Y_CLASSES_GROUP_TAG           _
-#include "..\..\YSI_Players\y_groups\y_groups__include"
+#include <YSI-Players\y_groups\y_groups__include>
 
 CHAIN_HOOK(Class)
 #undef CHAIN_ORDER
@@ -114,11 +114,11 @@ CHAIN_HOOK(Class)
 
 #define MASTER 61
 #define YSIM_U_DISABLE
-#include "..\..\YSI_Core\y_master"
+#include <YSI-Core\y_master>
 
-#include "..\..\YSI_Coding\y_hooks"
+#include <YSI-Coding\y_hooks>
 #include "y_classes_classcontrol"
-#include "..\..\YSI_Coding\y_hooks"
+#include <YSI-Coding\y_hooks>
 #include "y_classes_multiclass"
 
 #if defined YSI_TESTS
@@ -133,5 +133,5 @@ CHAIN_HOOK(Class)
 //#undef _GROUP_MAKE_LIMIT
 //#undef _GROUP_MAKE_NAME
 
-#include "..\..\YSI_Core\y_master"
+#include <YSI-Core\y_master>
 
